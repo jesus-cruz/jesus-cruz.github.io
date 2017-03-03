@@ -1,0 +1,24 @@
+# Página con recursos para programación
+
+## Recursos C++ y videojuegos
+* [Curso de Experto en Desarrollo de Videojueos: curso semipresencial de la Escuela Superior de Informática de la Universidad de Castilla la Mancha, recomendable sobre todo por la bibliografía, se puede descargar gratis el material del curso (Libro y ejemplos, licencia CC) o comprarlo en amazon.]
+(http://www.cedv.es/) 
+* [Libros como si estuviera en primero: todos los libros publicados por la Universidad de Navarra del tipo "...como si estuviera en primero". Incluye matlab, c++,c,java...]
+(http://www4.tecnun.es/recursos/labmat0.html)
+
+## Recursos JavaScript
+* [JavaScript: The definitive guide: publicado por O'Reilly]
+(http://shop.oreilly.com/product/9780596805531.do)
+* [JavaScript: The good parts: también publicado por O'Reilly]
+(http://shop.oreilly.com/product/9780596517748.do)
+* [JavaScrip Secrets of the JavaScript Ninja: publicado por la editorial Manning]
+(https://www.manning.com/bookts/secrets-of-the-javascript-ninja)
+
+
+## Rercusos C
+* [The C Programming Language: manual de C de referencia.]
+(https://en.wikipedia.org/wiki/The_C_Programming_Language)
+* [Expert C Programming: Deep C Secrets: manual avanzado de C.]
+(https://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298)
+
+## Recursos Sistemas autónomos 
