@@ -1,0 +1,33 @@
+.texto {
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.areaCuenta {
+    font-family: sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.botonCalcularIban {
+    font-family: sans-serif;
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+}
+
+.pie {
+    font-family: sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
