@@ -4,7 +4,7 @@ Bienvenidos a mi página personal, aquí encontraréis información relacionada 
 
 * [Perfil en Linkedin](https://www.linkedin.com/in/jesus-cruz-olivera-38672a117/)
 * [Calculadora cuentas bancarias](http://jesus-cruz.github.io/validadorIban/validadorIban.html)
-* [Robótica](http://jesus-cruz.github.io/robotica.html)
+* [Robótica](http://jesus-cruz.github.io/robotica.md)
 
 ![logoCC](http://es.creativecommons.org/blog/wp-content/uploads/2013/04/by-nc.eu_petit.png)
 
