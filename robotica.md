@@ -1,2 +1,0 @@
-# Proyectos de Robótica
-## Pixhawk
