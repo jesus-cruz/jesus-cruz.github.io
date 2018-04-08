@@ -1,11 +1,14 @@
 .texto {
-    font-family: sans-serif;
+    font-family: 'IM Fell English SC', serif;
     padding-bottom: 10px;
     text-align: center;
 }
 
-h1{
-    font-family: sans-serif;
+h1 {
+    font-family: 'IM Fell English SC', serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 26.4px;
     text-align: center;
 }
 
@@ -16,18 +19,23 @@ h1{
     margin-right: auto;
 } 
 
+#tesoro {
+    white-space: pre-wrap;
+    text-align: center;
+}
+
 .botonCalcularXP {
     font-family: sans-serif;
     display: block;
     margin: auto;
     border: none;
-    background-color: blue;
+    background-color: goldenrod;
     color: white;
     padding: 10px 30px;
 }
 
 .pie {
-    font-family: sans-serif;
+    font-family: 'IM Fell English SC', serif;
     padding-top: 20px;
     text-align: center;
 }
