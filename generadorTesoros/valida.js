@@ -60,30 +60,36 @@ var scrolls = [
 
 var treasure = "";
 
+function tirarDado( caras ){
+        resultado = Math.floor(Math.random()* caras )+1;
+        return resultado;
+    }
+
+
 function searchPotion(dice){
     if ( dice < 25){
-        return potions1[(dice-1)/3];
+        return potions1[(dice-1)/3] + "\n";
     }
     if ( dice == 25 ){
-        return "Frozen Concoction";
+        return "Frozen Concoction" + "\n";
     }
     if ( dice == 26 || dice == 27 ){
-        return "Gaseous Form";
+        return "Gaseous Form" + "\n";
     }
     if ( dice >= 28 && dice <= 48 ) {
-        return potions2[(dice-28)/3];
+        return potions2[(dice-28)/3] + "\n";
     }
     if ( dice >= 49 && dice <= 55 ){
-        return "Poison";
+        return "Poison" + "\n";
     }
     if ( dice >= 56 && dice <= 64 ) {
-        return potions3[(dice-56)/3];
+        return potions3[(dice-56)/3] + "\n";
     }
     if ( dice >= 65 && dice <= 75 ){
-        return "Extra Healing";
+        return "Extra Healing" + "\n";
     }
     if ( dice >= 76 && dice <= 100 ){
-        return "Healing";
+        return "Healing" + "\n";
     }
     
     
@@ -144,10 +150,15 @@ function rollTableMajorMagicItems(dice){
     }
 }
 
+
+
 $(document).ready(function () {
     $('button').click(function () {
         if ($(this).hasClass("botonCalcularXP")){
-                calcularTesoro($(".areaXP").val());
+                $( "#tesoro" ).empty(); 
+                treasure = "";
+                $('#tesoro').append('<p>'+(calcularTesoro($(".areaXP").val()))+'</p>');
+            
             }     
     });
     
@@ -155,7 +166,7 @@ $(document).ready(function () {
         if (inputXP == null || inputXP == 0){
             alert("Please insert a valid XP value");
             console.log("Invalid XP value:" + inputXP);
-            return;
+            return "";
         }
         //Begin by multiplying the total XP value of the monsters by 1d3+1
         var totalGP = inputXP * ( tirarDado(3) + 1);
@@ -215,14 +226,11 @@ $(document).ready(function () {
                 }
             }
         }
-        alert(treasure);
+        //alert(treasure);
         console.log(treasure);
+        return treasure;
         treasure = "";
     }
     
-    function tirarDado( caras ){
-        resultado = Math.floor(Math.random()* caras )+1;
-        return resultado;
-    }
-
+    
 });
